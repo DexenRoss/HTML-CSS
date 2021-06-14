@@ -1,0 +1,34 @@
+.listaDeSuper{
+    margin-top: 10px;
+    list-style:none;
+    padding: 0%;
+    background-color: #13a4a3;
+}
+
+.frutas_item{
+    display: inline-block;
+}
+
+/* Etiqueta dentro de nuestra clase*/
+.frutas_item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: red;
+}
+
+/*Pseudoclases -- Defiene el estilo de un estado especial de un elemento*/
+.frutas_item a:hover {
+    color: aqua;
+}
+
+.frutas_item a:active{
+    color: green;
+}
+
+/*PSeudoelementos -- Definen el estilo de una parte especifica de un elemento*/
+
+.frutas_item a::after{
+    content: " | ";
+}
