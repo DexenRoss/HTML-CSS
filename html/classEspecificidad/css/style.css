@@ -48,3 +48,15 @@ h1{
 h2 + p{
     color: red;
 }
+
+h2 ~ p {
+    background-color: green;
+}
+
+div > p {
+    color: green;
+}
+
+article p{
+    background-color: blue;
+}
