@@ -1,0 +1,23 @@
+span{
+    color: aqua;
+    font-size: 40px;
+}
+
+/*Clases*/
+
+.nombre{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.correo{
+    color: red;
+    font-family: 'Times New Roman';
+}
+
+/* ID */
+
+#codposid{
+    color: aliceblue;
+    background-color: grey;
+}

@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Calendario</title>
 </head>
 <body>
     <main>
         <form action="">
             <label for="nombreid">
-                <span>Cuál es tu nombre?</span>
+                <span class="nombre">Cuál es tu nombre?</span>
                 <input type="text" id="nombreid" name="nombre" autocomplete="name" required>
             </label>
             <label for="correoid">
-                <span>Cuál es tu Correo?</span>
+                <span class="correo">Cuál es tu Correo?</span>
                 <input type="email" id="correoid" name="correo" autocomplete="email" required>
             </label>
             <label for="paisid">
@@ -22,7 +23,7 @@
                 <input type="text" id="paisid" name="pais" autocomplete="country" required>
             </label>
             <label for="cpid">
-                <span>Cuál es tu codigo postal?</span>
+                <span id="codposid">Cuál es tu codigo postal?</span>
                 <input type="text" id="cpid" name="cp" autocomplete="postal-code" required>
             </label>
             <input type="submit">
