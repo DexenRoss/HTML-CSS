@@ -2,8 +2,90 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 html{
     font-size: 62.5%;
+}
+
+header{
+    background-color: aqua;
+    margin: 1.5rem;
+    padding: .7rem;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    background-color: blue;
+    border-radius: 5rem;
+}
+
+.nav{
+    list-style: none;
+    padding: 1rem;
+    text-align: right;
+}
+
+.nav li{
+    display: inline-block;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: blue;
+    border-radius: 3rem;
+}
+
+.nav-item a:hover{
+    color: aquamarine;
+}
+
+.nav-item a:active{
+    color: green;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: inline-block;
+    background-color: brown;
+}
+
+.elementos{
+    display: block;
+}
+
+.box{
+    margin: 5rem;
+    padding: 3rem;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.area-principal{
+    position: absolute;
+    background-color: blue;
+    left: 27rem;
+    bottom: 30rem;
+    height: 56rem;
+    width: 165rem;
+
+}
+
+footer{
+    background-color: yellowgreen;
+    padding: 5rem;
+}
+
+.redes-sociales{
+    position: absolute;
+    right: 1.5rem;
+}
+
+.redes-sociales, .info{
+    display: inline-block;
 }
