@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.block-element{
+    background-color: green;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 3rem;
+    padding: 5rem;
+}
+
+.nav{
+    background-color: peachpuff;
+    padding: 5rem;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 3rem;
+    margin: 3rem 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
