@@ -4,9 +4,16 @@
     margin: 0;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .parent{
     border: 2px black dotted;
     display: inline-block;
+    
+    
+
 }
 
 .box{
@@ -14,11 +21,21 @@
     background-color: red;
     width: 100px;
     height: 100px;
+    
+    
 }
 
 #two{
     background-color: green;
-    position: absolute;
+    position:fixed;
+    left: 71rem;
+    bottom: .25rem;
     
+}
+
+#three{
+    
+    left: 50%;
+
 }
 

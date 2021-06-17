@@ -8,45 +8,40 @@ html{
     font-size: 62.5%;
 }
 
-.box p{
-    text-align: center;
-    top: 50%;
-    left: 50%;
+main{
+    width: 100vw;
+    height: 100vh;
 }
 
 .padre{
-    left: 50%;
-    right: 50%;
-    top: 50%;
-    bottom: 50%;
     display: inline-block;
     position: relative;
-    
-    
+    left: 50%;
+    top: 50%;
 }
 
 .box{
     display: inline-flex;
     border-radius: 5px;
-    
-    top: 40rem;
-    left: 50%;
-    width: 18rem;
-    height: 4rem;
+    border: 2px black double;
 }
+
+
+
 
 #one{
     background-color: red;
     position: absolute;
-    top: 400px;
-    left: 50%;
-    width: 180px;
-    height: 45px;
+    bottom: 12px;
+    left: 22rem;
+    bottom: 22rem;
+    width: 10rem;
+    height: 5rem;
 }
+
 #two{
     background-color: grey;
-    top: 500px;
-    left: 50%;
-    width: 400px;
-    height: 250px;
+    width: 50rem;
+    height: 25rem;
+    
 }
